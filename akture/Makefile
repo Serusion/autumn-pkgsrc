@@ -1,10 +1,10 @@
 # $NetBSD$
 
-DISTNAME=	akture-0.0.20261103.1
+DISTNAME=	akture-0.0.20261103.2
 CATEGORIES=	autumn x11
 MASTER_SITES=	${MASTER_SITE_GITHUB:=Serusion/}
 GITHUB_PROJECT=	Akture
-GITHUB_TAG=	45e61d809bd9b61bc3053adaf1a42d1f8aa000af
+GITHUB_TAG=	e6be7e4d88b4ea6094b1a6f052619ba0918d6e7a
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/Serusion/Akture
