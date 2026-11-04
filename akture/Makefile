@@ -70,7 +70,6 @@ SUBST_STAGE.paths=	pre-configure
 SUBST_MESSAGE.paths=	Adjusting paths for pkgsrc.
 SUBST_FILES.paths=	etc/akture.conf etc/sessions/fluxbox
 SUBST_FILES.paths+=	akture/akture.8 akture/akture.conf.5
-SUBST_FILES.paths+=	akture-greeter/akture-greeter.8
 SUBST_FILES.paths+=	akture-conv/akture-conv.1
 SUBST_SED.paths=	-e 's,/usr/pkg/,${PREFIX}/,g'
 SUBST_SED.paths+=	-e 's,/etc/akture,${PKG_SYSCONFDIR},g'
