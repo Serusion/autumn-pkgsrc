@@ -1,0 +1,7 @@
+libautuni is the drawing code shared by the programs of the AutumnBSD
+desktop, such as the login screen of Akture.  It draws with pixman into
+images in memory, shapes with antialiased edges and text with FreeType,
+and puts them on X windows through MIT-SHM.  It also maps backgrounds
+in the .akbg format and parses configuration files.
+
+It is a static library, which programs find with pkg-config as autuni.

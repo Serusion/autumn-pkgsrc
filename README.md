@@ -6,6 +6,7 @@ pkgsrc packages for [AutumnBSD](https://github.com/Serusion/AutumnBSD) that are 
 
 - [akture](akture): Akture, the display manager of AutumnBSD, developed in [Serusion/Akture](https://github.com/Serusion/Akture)
 - [autumn-fonts](autumn-fonts): Outfit and Zen Kaku Gothic New, the fonts of AutumnBSD, from Google Fonts
+- [libautuni](libautuni): the drawing library shared by the programs of the AutumnBSD desktop, developed in [Serusion/libautuni](https://github.com/Serusion/libautuni)
 
 ## Installing with pkgin
 

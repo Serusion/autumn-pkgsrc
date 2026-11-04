@@ -1,0 +1,6 @@
+@comment $NetBSD$
+include/autuni/akbg.h
+include/autuni/akparse.h
+include/autuni/autuni.h
+lib/libautuni.a
+lib/pkgconfig/autuni.pc
