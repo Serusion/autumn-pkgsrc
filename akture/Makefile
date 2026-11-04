@@ -1,10 +1,10 @@
 # $NetBSD$
 
-DISTNAME=	akture-0.0.20261103.2
+DISTNAME=	akture-0.0.20261104
 CATEGORIES=	autumn x11
 MASTER_SITES=	${MASTER_SITE_GITHUB:=Serusion/}
 GITHUB_PROJECT=	Akture
-GITHUB_TAG=	e6be7e4d88b4ea6094b1a6f052619ba0918d6e7a
+GITHUB_TAG=	8485a8a1815df626d3c9be7e0f14cecec94acbec
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/Serusion/Akture
@@ -17,7 +17,8 @@ ONLY_FOR_PLATFORM=	NetBSD-*-* FreeBSD-*-*
 WRKSRC=			${WRKDIR}/${GITHUB_PROJECT}-${GITHUB_TAG}
 USE_BSD_MAKEFILE=	yes
 USE_TOOLS+=		pkg-config
-BUILD_DIRS=		akture akture-greeter akture-conv
+# libautuni first: akture-greeter links it.  It installs nothing.
+BUILD_DIRS=		libautuni akture akture-greeter akture-conv
 AUTO_MKDIRS=		yes
 
 MAKE_FLAGS+=	AKTURE_PREFIX=${PREFIX}
